@@ -1,0 +1,8 @@
+@media screen and (max-width:470px) {
+    .icon-nav {
+        display: none !important;
+    }
+    /* .navbar-collapse {
+        left: -11rem;
+    } */
+}

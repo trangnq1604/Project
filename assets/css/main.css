@@ -1,0 +1,261 @@
+body {
+    font-size: 16px;
+}
+
+.top-head,
+.nav-nav {
+    background: #000000;
+    color: #f4f4f4;
+}
+
+.top-head {
+    border-bottom: 0.0625rem solid #363636;
+}
+
+li.nav-item {
+    padding-right: 1rem;
+}
+
+li.nav-item a.nav-link {
+    color: #f4f4f4 !important;
+    text-transform: uppercase;
+    display: block;
+}
+
+.nav-item .nav-link:hover {
+    color: #e2524a !important;
+}
+
+
+/* .dropdown-menu {
+    top: 3.8rem;
+    text-transform: capitalize;
+    font-weight: 600;
+} */
+
+.dropdown-menu .dropdown-item {
+    font-weight: 600;
+}
+
+#sidebar {
+    z-index: 0;
+}
+
+#sidebar li {
+    background-color: #000000;
+}
+
+#sidebar li:first-child {
+    background-color: #e2524a;
+}
+
+#sidebar li:hover {
+    background-color: #e2524a;
+}
+
+.more-info {
+    bottom: 12.5rem;
+    width: 31.25rem;
+}
+
+.more-info .discount {
+    font-weight: bold;
+    color: #363636;
+    margin-bottom: 1.1875rem;
+}
+
+.discount-name {
+    color: #e2524a;
+    font-weight: bold;
+}
+
+.discount-info {
+    color: #000000;
+}
+
+.more-info .btn {
+    padding: 0.6rem 1.9rem;
+    background-color: #000000;
+}
+
+
+/* ========================================================= */
+
+#treatment {
+    border-bottom: 5rem solid #eeeeee;
+    padding-top: 5.6rem;
+}
+
+.list-item .item .item-info {
+    padding: 0.6rem 5.2rem;
+    color: #888787;
+}
+
+.list-item .item .item-info p {
+    color: #000000;
+}
+
+.list-item .item .item-info:hover {
+    color: #e2524a;
+}
+
+.list-item .item .item-info p:hover {
+    color: #e2524a;
+}
+
+
+/* =======================end-banner============================ */
+
+.box .box-head {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.box .box-head .product-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.box-body .product-thumb {
+    display: block;
+    overflow: hidden;
+}
+
+.box-body .card .product-thumb img {
+    transition: all 0.5s;
+}
+
+.box-body .card .product-thumb img:hover {
+    transform: scale(1.05);
+}
+
+.box .box-body .card-icon .fas {
+    color: #ffa500;
+}
+
+.box .box-body .post-thief {
+    color: #514545;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.box .box-body .post-thief:hover {
+    color: #e2524a;
+}
+
+
+/* ==================================end product-new======================================= */
+
+.no-gutters {
+    position: relative;
+}
+
+.fashion-shoes {
+    position: absolute;
+    bottom: 2rem;
+    left: 25rem;
+}
+
+a.shoess {
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #141414;
+}
+
+.fashion-shoes .bg-dark {
+    padding: 0.3rem 1.25rem;
+}
+
+
+/* ==================================end product-fashion======================================= */
+
+#best-selling {
+    border-bottom: 0.06rem solid #eeeeee;
+}
+
+
+/* ==========================end============================================= */
+
+.box-body .stylist .card-text {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+
+.box-body .stylist a.card-title {
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.box-body .stylist .card-date {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+.box-body .card-body a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.button .btn {
+    margin-top: 3rem;
+    padding: 0.3rem 1.87rem;
+    border: 0.06rem solid #eeeeee;
+}
+
+#product-share .button .btn:hover {
+    transform: scale(1.03);
+    color: white;
+}
+
+
+/* ============================end product-share====================================== */
+
+#footer {
+    background-color: #212121;
+    color: #e2524a;
+    padding-bottom: 6rem;
+}
+
+#footer .box-head {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-bottom: 1rem;
+}
+
+#footer .box-body {
+    padding-left: 0;
+}
+
+#footer .box-body a {
+    color: #f4f4f4;
+    text-decoration: none;
+    display: block;
+}
+
+#footer .box-body p {
+    padding-bottom: 1rem;
+}
+
+#footer .box.address {
+    padding-right: 10rem;
+}
+
+.see-more {
+    padding-bottom: 4rem;
+}
+
+
+/* ==========================end footer====================================== */
+
+#copyright {
+    background-color: #e2524a;
+    color: #dcdcdc;
+}
